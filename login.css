@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.login-box {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+
+}
+
+button {
+    width: 100px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#errorMsg {
+    color: red;
+    font-size: 14px;
+}
